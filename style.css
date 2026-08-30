@@ -233,12 +233,12 @@ a {
 }
 
 .stely-link {
-    display: inline-block;
+    display: flex;
     font-family: 'Press Start 2P', monospace;
     font-size: 0.9rem;
     color: var(--bleu-fond);
     background-color: var(--accent);
-    padding: 30px 50px;
+    padding: 16px 28px;
     border-radius: 6px;
     text-decoration: none;
     transition: transform 0.15s ease;
