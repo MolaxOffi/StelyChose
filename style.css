@@ -92,6 +92,7 @@ a {
 
 .section-divider {
     border-bottom: 4px solid var(--bleu-vif);
+    margin-bottom: 24px;
 }
 
 .section-title {
