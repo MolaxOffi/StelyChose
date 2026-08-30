@@ -90,6 +90,10 @@ a {
     text-align: center;
 }
 
+.section-divider {
+    border-bottom: 4px solid var(--bleu-vif);
+}
+
 .section-title {
     font-size: 1.5rem;
     color: var(--blanc);
