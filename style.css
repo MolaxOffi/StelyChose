@@ -152,7 +152,7 @@ a {
 
 .section-alt {
     max-width: 100%;
-    background-color: var(--bleu-fonce);
+    background-color: rgba(7, 20, 39, 0.82);
     text-align: center;
 }
 
