@@ -154,7 +154,6 @@ a {
 }
 
 .section-alt {
-    padding: 60px 20px;
     max-width: 100%;
     background-color: rgba(7, 20, 39, 0.7);
     text-align: center;
@@ -228,6 +227,7 @@ a {
    SECTION STELYCUBE
    ========================================================= */
 .stely-text {
+    padding: 60px 40px;
     font-size: 1.1rem;
     color: var(--bleu-clair);
     margin-bottom: 24px;
