@@ -1,0 +1,194 @@
+/* =========================================================
+   COULEURS — change juste les valeurs ici pour tout changer !
+   ========================================================= */
+:root {
+    --bleu-fond:      #0b1e3d;   /* fond principal, bleu nuit */
+    --bleu-fonce:     #071427;   /* fond un peu plus sombre (section alternée) */
+    --bleu-vif:       #3aa0ff;   /* bleu vif pour les titres et bordures */
+    --bleu-clair:     #9fd6ff;   /* bleu clair pour le texte secondaire */
+    --blanc:          #f2f8ff;   /* texte principal */
+    --accent:         #ffd93a;   /* jaune, pour les petits détails qui doivent attirer l'œil */
+}
+
+/* =========================================================
+   BASE
+   ========================================================= */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bleu-fond);
+    color: var(--blanc);
+    font-family: 'Space Mono', monospace;
+    line-height: 1.6;
+}
+
+a {
+    color: var(--bleu-vif);
+}
+
+/* =========================================================
+   HERO (en haut de la page)
+   ========================================================= */
+.hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background:
+        radial-gradient(circle at 50% 0%, rgba(58, 160, 255, 0.15), transparent 60%),
+        var(--bleu-fond);
+    border-bottom: 4px solid var(--bleu-vif);
+}
+
+.hero-badge {
+    display: inline-block;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.6rem;
+    color: var(--bleu-fond);
+    background-color: var(--accent);
+    padding: 6px 14px;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    letter-spacing: 1px;
+}
+
+.pixel-title {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 2.2rem;
+    color: var(--blanc);
+    text-shadow: 4px 4px 0 var(--bleu-vif);
+    letter-spacing: 2px;
+}
+
+.hero-subtitle {
+    margin-top: 20px;
+    font-size: 1.3rem;
+    color: var(--bleu-clair);
+}
+
+.hero-tagline {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: var(--bleu-clair);
+    opacity: 0.85;
+}
+
+/* =========================================================
+   SECTIONS
+   ========================================================= */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.section-alt {
+    max-width: 100%;
+    background-color: var(--bleu-fonce);
+    text-align: center;
+}
+
+.section-title {
+    font-size: 1.5rem;
+    color: var(--blanc);
+    margin-bottom: 36px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.tag {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7rem;
+    color: var(--bleu-fond);
+    background-color: var(--bleu-vif);
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+/* =========================================================
+   "INVENTAIRE" — les 3 cases façon jeu vidéo
+   ========================================================= */
+.inventory {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 24px;
+}
+
+.slot {
+    background-color: rgba(58, 160, 255, 0.08);
+    border: 3px solid var(--bleu-vif);
+    border-radius: 8px;
+    padding: 28px 20px;
+    text-align: center;
+    transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.slot:hover {
+    transform: translateY(-6px);
+    background-color: rgba(58, 160, 255, 0.16);
+}
+
+.slot-icon {
+    font-size: 2.2rem;
+    margin-bottom: 14px;
+}
+
+.slot h3 {
+    color: var(--bleu-clair);
+    margin-bottom: 10px;
+    font-size: 1.05rem;
+}
+
+.slot p {
+    font-size: 0.85rem;
+    color: var(--blanc);
+    opacity: 0.85;
+}
+
+/* =========================================================
+   SECTION STELYCUBE
+   ========================================================= */
+.stely-text {
+    font-size: 1.1rem;
+    color: var(--bleu-clair);
+    margin-bottom: 24px;
+}
+
+.stely-link {
+    display: inline-block;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.9rem;
+    color: var(--bleu-fond);
+    background-color: var(--accent);
+    padding: 16px 28px;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: transform 0.15s ease;
+}
+
+.stely-link:hover {
+    transform: scale(1.05);
+}
+
+/* =========================================================
+   PIED DE PAGE
+   ========================================================= */
+.footer {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.85rem;
+    color: var(--bleu-clair);
+    opacity: 0.7;
+}
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+@media (max-width: 600px) {
+    .pixel-title {
+        font-size: 1.5rem;
+    }
+}
