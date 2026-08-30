@@ -3,13 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Site Web</title>
+    <title>Molax28 — Mon StelyMoi</title>
+
+    <!-- On récupère deux polices gratuites sur Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1>Bienvenue sur mon site</h1>
-    <p>Ceci est mon premier site web.</p>
+    <!-- ===== EN-TÊTE / HERO ===== -->
+    <header class="hero">
+        <div class="hero-badge">EN LIGNE</div>
+        <h1 class="pixel-title">MOLAX28</h1>
+        <p class="hero-subtitle">Mon StelyMoi</p>
+        <p class="hero-tagline">Développeur de jeux • Modérateur &amp; animateur sur StelyCube</p>
+    </header>
+
+    <!-- ===== SECTION : CE QUE J'AIME FAIRE ===== -->
+    <main>
+        <section class="section">
+            <h2 class="section-title"><span class="tag">01</span> Ce que j'aime faire</h2>
+
+            <div class="inventory">
+
+                <div class="slot">
+                    <div class="slot-icon">🎮</div>
+                    <h3>Développer des jeux</h3>
+                    <p>J'aime créer et coder mes propres jeux, tester des idées et apprendre en construisant.</p>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-icon">🧱</div>
+                    <h3>Modération &amp; animation</h3>
+                    <p>Je fais de la modération et de l'animation sur un serveur Minecraft : gérer la communauté, organiser des événements, aider les joueurs.</p>
+                </div>
+
+                <div class="slot">
+                    <div class="slot-icon">🌐</div>
+                    <h3>StelyCube</h3>
+                    <p>Mon serveur Minecraft du cœur, où je passe du temps à animer et faire vivre la communauté.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ===== SECTION : STELYCUBE ===== -->
+        <section class="section section-alt">
+            <h2 class="section-title"><span class="tag">02</span> Retrouve-moi sur StelyCube</h2>
+            <p class="stely-text">
+                Rejoins le serveur et viens dire bonjour !
+            </p>
+            <a class="stely-link" href="https://play.stelycube.fr" target="_blank" rel="noopener">
+                play.stelycube.fr
+            </a>
+        </section>
+    </main>
+
+    <!-- ===== PIED DE PAGE ===== -->
+    <footer class="footer">
+        <p>Fait avec ❤️ par Molax28</p>
+    </footer>
 
 </body>
 </html>
