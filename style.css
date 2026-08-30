@@ -251,7 +251,7 @@ a {
 
 .stely-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: coloumn;
     align-items: center;
     gap: 16px;
 }
