@@ -234,6 +234,9 @@ a {
 
 .stely-link {
     display: flex;
+    flex-direction: coloumn;
+    align-items: center;
+    gap: 16px;
     font-family: 'Press Start 2P', monospace;
     font-size: 0.9rem;
     color: var(--bleu-fond);
