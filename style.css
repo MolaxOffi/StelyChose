@@ -238,7 +238,7 @@ a {
     font-size: 0.9rem;
     color: var(--bleu-fond);
     background-color: var(--accent);
-    padding: 30px 28px;
+    padding: 30px 50px;
     border-radius: 6px;
     text-decoration: none;
     transition: transform 0.15s ease;
