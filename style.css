@@ -106,7 +106,7 @@ a {
     text-align: center;
     padding: 80px 20px 60px;
     background:
-        radial-gradient(circle at 50% 0%, rgba(58, 160, 255, 0.15), transparent 60%),
+        radial-gradient(circle at 50% 0%, rgba(58, 160, 255, 0.15), transparent 80%),
         var(--bleu-fond);
     border-bottom: 4px solid var(--bleu-vif);
 }
