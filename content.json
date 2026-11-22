@@ -1,0 +1,134 @@
+{
+  "site": {
+    "name": "Prénom Nom",
+    "role": "Développeur full-stack",
+    "bio": "Je conçois des applications web sobres, rapides et maintenables.",
+    "location": "France",
+    "email": "contact@exemple.fr",
+    "available": true,
+    "availableText": "Disponible pour de nouvelles missions",
+    "socials": [
+      {
+        "id": "82907006",
+        "label": "GitHub",
+        "url": "https://github.com"
+      }
+    ],
+    "seoTitle": "Portfolio développeur",
+    "seoDescription": "Portfolio et projets d’un développeur full-stack.",
+    "formAction": ""
+  },
+  "sections": [
+    {
+      "id": "home",
+      "type": "home",
+      "visible": true,
+      "nav": "Accueil",
+      "title": "Accueil"
+    },
+    {
+      "id": "about",
+      "type": "about",
+      "visible": true,
+      "nav": "À propos",
+      "title": "À propos",
+      "body": "Présentez ici votre parcours en quelques phrases.",
+      "blocks": [
+        {
+          "id": "1053260b",
+          "label": "Parcours",
+          "text": "Formation, premières expériences."
+        },
+        {
+          "id": "10d17104",
+          "label": "Méthode",
+          "text": "Comment vous travaillez."
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "skills",
+      "visible": true,
+      "nav": "Compétences",
+      "title": "Compétences",
+      "body": ""
+    },
+    {
+      "id": "projects",
+      "type": "projects",
+      "visible": true,
+      "nav": "Projets",
+      "title": "Projets",
+      "body": "",
+      "layout": "featured"
+    },
+    {
+      "id": "contact",
+      "type": "contact",
+      "visible": true,
+      "nav": "Contact",
+      "title": "Contact",
+      "body": "Un projet, une question ? Écrivez-moi.",
+      "form": true
+    }
+  ],
+  "skills": [
+    {
+      "id": "fafe23f4",
+      "name": "TypeScript",
+      "icon": "TS",
+      "cat": "Langages",
+      "level": "Avancé",
+      "desc": ""
+    },
+    {
+      "id": "6eb94f09",
+      "name": "React",
+      "icon": "⚛",
+      "cat": "Frameworks",
+      "level": "",
+      "desc": ""
+    },
+    {
+      "id": "8c006230",
+      "name": "Git",
+      "icon": "⎇",
+      "cat": "Outils",
+      "level": "",
+      "desc": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "31e66da6",
+      "name": "Premier projet",
+      "desc": "Décrivez le problème résolu et votre rôle.",
+      "tech": [
+        "Node.js",
+        "SQLite"
+      ],
+      "url": "",
+      "github": "",
+      "status": "En ligne",
+      "date": "2026",
+      "image": "",
+      "published": true
+    }
+  ],
+  "theme": {
+    "bg": "#0d0e10",
+    "surface": "#15171a",
+    "text": "#e9e6df",
+    "muted": "#8b8f96",
+    "border": "#24272c",
+    "accent": "#8fa6c4",
+    "accent2": "#c9b79c",
+    "radius": 6,
+    "space": 1,
+    "fontSize": 16,
+    "fontBody": "sans",
+    "fontMono": "mono",
+    "animations": true
+  }
+}
